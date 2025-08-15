@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Sources.Runtime.Gameplay.MiniGames.Root.Datas
+namespace Sources.Runtime.Gameplay.MiniGame.Root.Datas
 {
     [System.Serializable]
     public struct MiniGameTask

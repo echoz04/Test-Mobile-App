@@ -16,5 +16,12 @@ namespace Sources.Runtime.Game.Root
             builder.Register<SceneLoader>(Lifetime.Singleton)
                 .As<ISceneLoader>();
         }
+        
+        protected override void Awake()
+        {
+            DontDestroyOnLoad(gameObject);
+            Debug.Log("GameScope.Awake");
+            base.Awake();
+        }
     }
 }

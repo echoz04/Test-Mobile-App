@@ -1,5 +1,4 @@
-using Sources.Runtime.Gameplay.MiniGames;
-using Sources.Runtime.Services.GameDataLoader;
+using Sources.Runtime.Gameplay.MiniGame;
 using UnityEngine;
 using VContainer;
 using VContainer.Unity;
